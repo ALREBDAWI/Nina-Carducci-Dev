@@ -31,6 +31,8 @@ body {
 
 .nav li {
 	padding-inline: 10px;
+	cursor: pointer; 
+	/* adding pointer on category filters*/
 }
 
 .nav a {

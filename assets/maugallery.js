@@ -154,7 +154,7 @@
         }
       });
       next =
-        imagesCollection[index - 1] ||     //fix error by addin -1 to index 
+        imagesCollection[index - 1] ||     //fixing changing to previous image error by adding -1 to index 
         imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
@@ -192,7 +192,7 @@
           index = i;
         }
       });
-      next = imagesCollection[index + 1] || imagesCollection[0]; ///we added + 1 after index tp solve the probleme 
+      next = imagesCollection[index + 1] || imagesCollection[0]; ///we added + 1 after index to solve the probleme 
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     createLightBox(gallery, lightboxId, navigation) {

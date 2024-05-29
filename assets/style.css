@@ -195,6 +195,12 @@ body {
 	z-index: 1;
 }
 
+.service b {
+	font-size: 24px;
+	font-weight: 500;
+	display: block;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;

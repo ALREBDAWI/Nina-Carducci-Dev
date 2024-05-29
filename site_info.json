@@ -1,0 +1,25 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nina Carducci",
+    "jobTitle": "Photographer",
+    "url": "https://alrebdawi.github.io/Nina-Carducci-Dev/",
+    "sameAs": [
+      "https://fr-fr.facebook.com/public?query=NINA+CARUCCI&nomc=0",
+      "https://www.instagram.com/ninacarducci.photo/"
+    ],
+    "image": "./assets/images/nina.webp",
+    "worksFor": {
+      "@type": "organization",
+      "name": "Nina Carducci photographie",
+      "url": "https://alrebdawi.github.io/Nina-Carducci-Dev/"
+    },
+    "knowsAbout": "Wedding Photography, Portrait Photography, Event Photography",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bordeaux",
+      "addressRegion": "Bordeaux",
+      "postalCode": "33200",
+      "streetAddress": "68 avenue Alsace-Lorraine"
+    }
+  }
